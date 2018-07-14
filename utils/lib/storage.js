@@ -10,7 +10,7 @@ var Storage = {
         var timestamp = Date.parse(new Date());
         var v = wx.getStorageSync(k) || null;
         var expiration = wx.getStorageSync(k + 'expire') || null;
-
+        //console.log(v);
         if (v && expiration && expiration > timestamp) {
             return v;
         } else {

@@ -1,11 +1,9 @@
 {
     "pages": [
-       
         "pages/index/index",
         "pages/classify/index",
-        "pages/category/index",
-        "pages/cart/index"
-
+        "pages/cart/index",
+        "pages/category/index"   
     ],
     "window": {
         "navigationBarTextStyle": "#ffffff",   

@@ -8,4 +8,6 @@ module.exports = {
     WX_SESSION_MAGIC_ID: 'F2C224D4-2BCE-4C64-AF9F-A6D872000D1A',
 
     ERR_INVALID_PARAMS: 'ERR_INVALID_PARAMS',
+
+    API_URL: 'https://www.xiaobaiupin.com/rest.html?is_api=1',
 };
