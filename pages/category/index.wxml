@@ -1,0 +1,155 @@
+<!--pages/index/index.wxml-->
+<view class="category-page">
+  
+  <view class="p1th">
+    <view class="wrap">
+      <view class="title-item item-1">
+        <view class="txt-1">
+          <text>手机</text>
+          <view class="icon"></view>
+        </view>
+      </view>
+      <view class="title-item item-2">
+        <view class="txt-1">
+          <text>手机</text>
+        </view>
+        <view class="category-list">
+          <view class="item">
+            <text>苹果</text>
+          </view>
+          <view class="item">
+            <text>华为</text>
+          </view>
+          <view class="item">
+            <text>坚果</text>
+          </view>
+          <view class="item">
+            <text>坚果</text>
+          </view>
+          <view class="item">
+            <text>一加</text>
+          </view>
+          <view class="item">
+            <text>努比亚</text>
+          </view>
+          <view class="item">
+            <text>360</text>
+          </view>
+          <view class="item">
+            <text>金立</text>
+          </view>
+          <view class="item">
+            <text>索尼</text>
+          </view>
+          <view class="item">
+            <text>摩托罗拉</text>
+          </view>
+        </view> 
+        <view class="arrow-item">
+          <view class="icon"></view>
+        </view>
+      </view>
+      <view class="title-item item-3">
+        <view class="txt-1">
+          <text>苹果</text>
+          <text class="txt-2">手机</text>
+        </view>
+        <view class="category-list">
+          <view class="item">
+            <text>iPhone X</text>
+          </view>
+          <view class="item">
+            <text>iPhone 8</text>
+          </view>
+          <view class="item">
+            <text>iPhone 8 Plus</text>
+          </view>
+          <view class="item">
+            <text>iPhone 7</text>
+          </view>
+          <view class="item">
+            <text>iPhone 7 Plus</text>
+          </view>
+          <view class="item">
+            <text>iPhone 6s</text>
+          </view>
+          <view class="item">
+            <text>iPhone 6s Plus</text>
+          </view>
+          <view class="item">
+            <text>iPhone 6</text>
+          </view>
+          <view class="item">
+            <text>索尼</text>
+          </view>
+          <view class="item">
+            <text>摩托罗拉</text>
+          </view>
+        </view> 
+        <view class="arrow-item">
+          <view class="icon"></view>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+  <view class="p2th">
+    
+    <view class="list">
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">95新</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone SE 128G</view>
+            <view class="txt-2">银色 100%电池寿命</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+  
+</view>

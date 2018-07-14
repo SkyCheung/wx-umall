@@ -1,8 +1,9 @@
 {
     "pages": [
-       "pages/classify/index",
+       
         "pages/index/index",
-        
+        "pages/classify/index",
+        "pages/category/index",
         "pages/cart/index"
 
     ],
