@@ -1,12 +1,13 @@
 // pages/index/index.js
+var constants = require('../../utils/constants');
+var storage = require('../../utils/lib/storage.js');
+var ewx = require('../../utils/lib/request.js');
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
     imgUrls:[
-      '../../images/banner1.jpg',
       '../../images/banner1.jpg'
     ],
     indicatorDots:true,
@@ -18,6 +19,7 @@ Page({
    */
   onLoad: function (options) {
     var that = this;
+    this.getBanner(that);//banner
     // 动态给买家说加高度
     wx.createSelectorQuery().select('.swiper-item').fields({
       dataset: true,
@@ -79,5 +81,37 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  getBanner:function(that){
+      var ckey = 'banner';
+      var banner_image = storage.get(ckey);
+      if (banner_image){
+          that.setData({imgUrls: banner_image})
+      }else{
+          var options = {
+              url: constants.API_URL,
+              data: {act: 'banner',code: 'mobileindexbanner'},
+              success: function (res) {
+                  let banner = res.data.data.mobileindexbanner;
+                  let banner_image = ['../../images/banner1.jpg'];
+                  for (var i in banner) {
+                      banner_image.push(banner[i]['img'])
+                  }
+                  that.setData({imgUrls: banner_image});
+                  storage.set('banner', banner_image, 86400);
+              },
+              fail: function (err) {
+                   console.log('fail function'); 
+                   console.log(err); 
+              }
+          };
+          ewx.request(options);
+      }
+  },
+
+
+  getNewGoods:function(that){
+
   }
 })

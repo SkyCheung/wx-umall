@@ -10,4 +10,5 @@ module.exports = {
     ERR_INVALID_PARAMS: 'ERR_INVALID_PARAMS',
 
     API_URL: 'https://www.xiaobaiupin.com/rest.html?is_api=1',
+    IMAGE_URL: 'https://www.xiaobaiupin.com/',
 };

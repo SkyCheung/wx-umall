@@ -43,6 +43,7 @@ function request(options) {
     var success = options.success || noop;
     var fail = options.fail || noop;
     var complete = options.complete || noop;
+    var method = options.method || 'GET';
     var originHeader = { 
         'content-type': 'application/x-www-form-urlencoded',
         'x-app-name':'xb-mini-v-1.0.0'
@@ -88,12 +89,12 @@ function request(options) {
 
         wx.request({
             url: options.url,
-            method: options.method,
+            method: method,
             header: utils.extend({}, originHeader, authHeader),
             data:options.data,
 
             success:function(response){
-                console.log(response.data);
+                //console.log(response.data);
                 var data = response.data;
 
                 var error, message;
