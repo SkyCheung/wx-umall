@@ -1,0 +1,80 @@
+<!--pages/cart/index.wxml-->
+<view class="classify-page">
+  <view class="nav-item" bindtap="changNav">
+    <view  class="nav {{curNum == 1?'nav-cur':''}}" data-index="1">苹果</view>
+    <view  class="nav {{curNum == 2?'nav-cur':''}}" data-index="2">安卓</view>
+    <view  class="nav {{curNum == 3?'nav-cur':''}}" data-index="3">苹果</view>
+    <view  class="nav {{curNum == 4?'nav-cur':''}}" data-index="4">笔记本</view>
+    <view  class="nav {{curNum == 5?'nav-cur':''}}" data-index="5">新奇数码</view>
+  </view>
+  <!-- <view class="list list-1">
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone X </text>
+    </view>
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone X </text>
+    </view>
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone 7 Plus </text>
+    </view>
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone X </text>
+    </view>
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone 6s Plus </text>
+    </view>
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone 6s Plus </text>
+    </view>
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone 6s Plus </text>
+    </view>
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone </text>
+    </view>
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone 6s Plus </text>
+    </view>
+  </view> -->
+  <view class="list list-2">
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test8.jpg'></image>
+      </view>
+      <text>iPhone X </text>
+    </view>
+    <view class="item">
+      <view class='img-item'>
+        <image src='../../images/test9.jpg'></image>
+      </view>
+      <text>iPhone X </text>
+    </view>
+  </view>
+</view>

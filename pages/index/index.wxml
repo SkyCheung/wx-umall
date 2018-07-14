@@ -1,0 +1,415 @@
+<!--pages/index/index.wxml-->
+<view class="index-page">
+  <view class="p1th">
+    <swiper indicator-dots="{{indicatorDots}}" class="swiper" autoplay="true" interval="5000" duration="1000" indicator-active-color="#e7342f" indicator-color="rgba(0, 0, 0, .3)">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="img"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  </view>
+  <view class="p2th">
+    <view class="input-item">
+      <input type="text" placeholder="搜索型号/品牌" placeholder-style="font-size:25rpx"/>
+    </view>
+    <view class="classify-item">
+      <view class="item">
+        <view class="img-item"><image src='../../images/phone-icon.jpg'></image></view>
+        <view class="txt-item">手机</view>
+      </view>
+       <view class="item">
+        <view class="img-item"><image src='../../images/parts-icon.jpg'></image></view>
+        <view class="txt-item">配件</view>
+      </view>
+       <view class="item">
+        <view class="img-item"><image src='../../images/notebook-icon.jpg'></image></view>
+        <view class="txt-item">笔记本</view>
+      </view>
+       <view class="item">
+        <view class="img-item"><image src='../../images/digital-icon.jpg'></image></view>
+        <view class="txt-item">新奇数码</view>
+      </view>
+       <view class="item">
+        <view class="img-item"><image src='../../images/classify-icon.jpg'></image></view>
+        <view class="txt-item">分类</view>
+      </view>
+    </view>
+  </view>
+  <view class="p3th">
+    <view class="title-item">
+      <view class="new-icon"></view>
+      <view class="title">每日上新</view>
+      <view class="arrow-icon"></view>
+    </view>
+    <view class="list">
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">95新</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone SE 128G</view>
+            <view class="txt-2">银色 100%电池寿命</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+    </view>
+    <view class="more-item">
+
+      <view class="title">查看更多</view>
+      <view class="more-icon"></view>
+    </view>
+  </view>
+  <view class="p4th">
+      <view class="img-item">
+        <image src="../../images/test2.jpg"></image>
+        <image src="../../images/test3.jpg"></image>
+        <image src="../../images/test4.jpg"></image>
+        <image src="../../images/test4.jpg"></image>
+      </view>
+      <view class="more-item">
+        <view class="title">查看更多</view>
+        <view class="more-icon"></view>
+      </view>
+  </view>
+  <view class="p5th">
+    <view class="img-item">
+      <image src="../../images/test5.jpg"></image>
+    </view>
+     <view class="list">
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">95新</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone SE 128G</view>
+            <view class="txt-2">银色 100%电池寿命</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+    </view>
+    <view class="more-item">
+        <view class="title">查看更多</view>
+        <view class="more-icon"></view>
+      </view>
+  </view>
+  <view class="p5th">
+    <view class="img-item">
+      <image src="../../images/test5.jpg"></image>
+    </view>
+     <view class="list">
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">95新</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone SE 128G</view>
+            <view class="txt-2">银色 100%电池寿命</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+    </view>
+    <view class="more-item">
+        <view class="title">查看更多</view>
+        <view class="more-icon"></view>
+      </view>
+  </view>
+  <view class="p5th">
+    <view class="img-item">
+      <image src="../../images/test5.jpg"></image>
+    </view>
+     <view class="list">
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">95新</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone SE 128G</view>
+            <view class="txt-2">银色 100%电池寿命</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+      <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+       <view class="item">
+        <view class="image-item">
+          <image src='../../images/test1.jpg'></image>
+        </view>
+        <view class="txt-item">
+          <view class="item-1">官换机</view>
+           <view class="item-2">
+            <view class="txt-1">iPhone 6 32G</view>
+            <view class="txt-2">未激活 国行 颜色可选</view>
+            <view class="txt-3">¥1899.00</view>
+           </view>
+        </view>
+      </view>
+    </view>
+    <view class="more-item">
+        <view class="title">查看更多</view>
+        <view class="more-icon"></view>
+    </view>
+  </view>
+  <view class="p6th">
+    <view class="title-item">
+      <view class="new-icon"></view>
+      <view class="title">买家说</view>
+      <view class="arrow-icon"></view>
+    </view>
+    
+  <swiper indicator-dots="true" class="swiper" autoplay="false"  indicator-active-color="#e7342f" indicator-color="rgba(0, 0, 0, .3)" style="height:{{height}}px">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <view class="list swiper-item" >
+        <view class="item">
+          <view class="lbox">
+            <image src='../../images/test6.jpg'></image>
+          </view>
+          <view class="rbox">
+            <view class="txt-1">18883589407</view>
+            <view class="txt-2">
+              挺好用的，不错。支持。以后手机都在这里买了，希望东西更全，价格更美丽！
+            </view>
+            <view class="txt-3">
+              <image src="../../images/test7.jpg"></image>
+              <image src="../../images/test7.jpg"></image>
+              <image src="../../images/test7.jpg"></image>
+            </view>
+            <view class='txt-4'>
+              <view class='name'>iPhone 6 银色 64G 未激活</view>
+              <view class='time'>2018-07-08   20:45</view>
+            </view>
+          </view>
+          
+        </view>
+        <view class="item">
+          <view class="lbox">
+            <image src='../../images/test6.jpg'></image>
+          </view>
+          <view class="rbox">
+            <view class="txt-1">18883589407</view>
+            <view class="txt-2">
+              挺好用的，不错。支持。以后手机都在这里买了，希望东西更全，价格更美丽！
+            </view>
+        
+            <view class='txt-4'>
+              <view class='name'>iPhone 6 银色 64G 未激活</view>
+              <view class='time'>2018-07-08   20:45</view>
+            </view>
+          </view>
+          
+        </view>
+        <view class="item">
+          <view class="lbox">
+            <image src='../../images/test6.jpg'></image>
+          </view>
+          <view class="rbox">
+            <view class="txt-1">18883589407</view>
+            <view class="txt-2">
+              挺好用的，不错。支持。以后手机都在这里买了，希望东西更全，价格更美丽！
+            </view>
+        
+            <view class='txt-4'>
+              <view class='name'>iPhone 6 银色 64G 未激活</view>
+              <view class='time'>2018-07-08   20:45</view>
+            </view>
+          </view>
+          
+        </view>
+        <view class="item">
+          <view class="lbox">
+            <image src='../../images/test6.jpg'></image>
+          </view>
+          <view class="rbox">
+            <view class="txt-1">18883589407</view>
+            <view class="txt-2">
+              挺好用的，不错。支持。以后手机都在这里买了，希望东西更全，价格更美丽！
+            </view>
+        
+            <view class='txt-4'>
+              <view class='name'>iPhone 6 银色 64G 未激活</view>
+              <view class='time'>2018-07-08   20:45</view>
+            </view>
+          </view>
+          
+        </view>
+        <view class="item">
+          <view class="lbox">
+            <image src='../../images/test6.jpg'></image>
+          </view>
+          <view class="rbox">
+            <view class="txt-1">18883589407</view>
+            <view class="txt-2">
+              挺好用的，不错。支持。以后手机都在这里买了，希望东西更全，价格更美丽！
+            </view>
+        
+            <view class='txt-4'>
+              <view class='name'>iPhone 6 银色 64G 未激活</view>
+              <view class='time'>2018-07-08   20:45</view>
+            </view>
+          </view>
+          
+        </view>
+    </view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="more-item">
+        <view class="title">查看更多</view>
+        <view class="more-icon"></view>
+    </view>
+  </view>
+</view>

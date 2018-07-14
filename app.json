@@ -1,0 +1,61 @@
+{
+    "pages": [
+       "pages/classify/index",
+        "pages/index/index",
+        
+        "pages/cart/index"
+
+    ],
+    "window": {
+        "navigationBarTextStyle": "#ffffff",   
+        "navigationBarTitleText": "小白有品",
+        "navigationBarBackgroundColor": "#e83f3e",
+        "backgroundColor": "#eeeeee",
+        "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "color": "#b7b7b7",
+        "selectedColor": "#e83f3e",
+        "borderStyle": "#c0a97a",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "主页",
+                "iconPath":"images/home-icon.png",
+                "selectedIconPath":"images/home-icon-cur.png"
+            },
+            {
+              "pagePath": "pages/cart/index",
+              "text": "在线客服",
+              "iconPath": "images/line-service-icon.png",
+              "selectedIconPath": "images/line-service-icon-cur.png"
+            },
+            {
+                "pagePath": "pages/cart/index",
+                "text": "购物车",
+                "iconPath": "images/card-icon.png",
+                "selectedIconPath": "images/card-icon-cur.png"
+            },
+            {
+              "pagePath": "pages/cart/index",
+              "text": "晒单",
+              "iconPath": "images/share-order-icon.png",
+              "selectedIconPath": "images/share-order-icon-cur.png"
+            },
+            {
+              "pagePath": "pages/cart/index",
+              "text": "我的",
+              "iconPath": "images/mine-icon.png",
+              "selectedIconPath": "images/mine-icon-cur.png"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "debug": false
+}
